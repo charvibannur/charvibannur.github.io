@@ -38,13 +38,11 @@ body {
     font-size: 18px; /* Increase the font size to make the text more visible */
 }
 
-
-
 /* Style the header */
 #top {
     background-image: url('images/charvi_profile.jpg');
     background-size: cover;
-    padding: 100px 0;
+    padding: 0px 0;
     text-align: center;
     color: #000;
 }
@@ -129,10 +127,55 @@ article footer {
     }
 }
 
-
 #top img {
     max-width: 40%;
     height: auto;
-    margin-top: 50px; /* Add margin to move the image down */
+    margin-top: 150px; /* Add margin to move the image down */
 }
 
+.video-container {
+    text-align: center; /* Center-align the content within the .video-container */
+    margin: 0 auto; /* Center the .video-container horizontally */
+    max-width: 480px; /* Set a maximum width for the content */
+}
+
+.video-container video {
+    display: block; /* Ensure the video is a block-level element */
+    margin: 0 auto; /* Center the video horizontally */
+}
+
+/* Style the video description (optional) */
+.video-container p {
+    margin: 10px 0; /* Add space around the description */
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #f4f4f4; /* Add a background color */
+    padding: 0px 0; /* Add padding to create space around the content */
+}
+
+/* Style the contact header */
+#contact h2 {
+    text-align: center; /* Center-align the header */
+    margin-bottom: 20px; /* Add margin below the header */
+    color: #000; /* Set the text color */
+}
+
+/* Style the social links */
+#contact .social {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center-align the social links */
+}
+
+#contact .social li {
+    display: inline-block; /* Display the social icons side by side */
+    margin: 10px; /* Add spacing between the social icons */
+}
+
+#contact .social a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set the link color */
+    font-size: 18px; /* Set the icon size */
+    transition: color 0.3s; /* Add a smooth color transition effect */
