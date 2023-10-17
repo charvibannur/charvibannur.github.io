@@ -1,0 +1,138 @@
+/* Reset default margin and padding */
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f2f2f2;
+}
+
+/* Style the navigation bar */
+#nav {
+    background-color: #333;
+    color: #000;
+    text-align: center;
+    padding: 2.5rem 0; /* Increase the padding to make it larger */
+    position: fixed; /* Keep the navigation bar fixed at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#nav ul li {
+    display: inline; /* Display items inline (horizontally) */
+    margin-right: 20px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px; /* Increase the font size to make the text more visible */
+}
+
+
+
+/* Style the header */
+#top {
+    background-image: url('images/charvi_profile.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #000;
+}
+
+#top h1 {
+    font-size: 36px;
+}
+
+/* Style the main content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+}
+
+/* Style the article headers */
+article header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the article paragraphs */
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+article footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Style the social icons */
+.social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Add some spacing between elements */
+.wrapper {
+    margin-bottom: 100px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    #nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #top {
+        padding: 50px 0;
+    }
+
+    #top h1 {
+        font-size: 24px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    article header h2 {
+        font-size: 20px;
+    }
+
+    article p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+}
+
+
+#top img {
+    max-width: 40%;
+    height: auto;
+    margin-top: 50px; /* Add margin to move the image down */
+}
+
