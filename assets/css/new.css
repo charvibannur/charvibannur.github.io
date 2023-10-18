@@ -70,6 +70,14 @@ body {
     color: #88D4AB;
 }
 
+#top a{
+    color: #88D4AB;
+}
+
+#work a{
+    color: #88D4AB;
+}
+
 #work a:active{
     color: #88D4AB;
 }
