@@ -11,10 +11,9 @@ body {
 
 /* Style the navigation bar */
 #nav {
-    background-color: #249EA0;
-    color: #000;
-    text-align: center;
-    padding: 2.5rem 0; /* Increase the padding to make it larger */
+    background-color: #88D4AB;
+    color: #6B6E70;
+    padding: 1.2rem 0; /* Increase the padding to make it larger */
     position: fixed; /* Keep the navigation bar fixed at the top */
     top: 0;
     left: 0;
@@ -23,6 +22,7 @@ body {
 }
 
 #nav ul {
+    text-align: right;
     list-style: none;
 }
 
@@ -33,9 +33,22 @@ body {
 
 #nav a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-weight: bold;
     font-size: 18px; /* Increase the font size to make the text more visible */
+}
+
+#nav a:hover {
+    color: #6B6E70;
+}
+
+
+#nav .name {
+    margin-right: 650px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 /* Style the header */
@@ -44,10 +57,47 @@ body {
     background-size: cover;
     padding: 0px 0;
     text-align: center;
-    color: #000;
+    color: #6B6E70;
+    font-size: 20px;
+}
+
+
+#top a:active{
+    color: #88D4AB;
+}
+
+#top a:visited{
+    color: #88D4AB;
+}
+
+#work a:active{
+    color: #88D4AB;
+}
+
+#work a:visited{
+    color: #88D4AB;
+}
+
+
+#work {
+    color: #6B6E70;
+    font-size: 20px;
+}
+
+#work h2{
+    font-size: 28px;
+}
+
+#portfolio h2{
+    font-size: 28px;
+}
+
+#portfolio {
+    color: #6B6E70;
 }
 
 #top h1 {
+
     font-size: 36px;
 }
 
@@ -128,7 +178,8 @@ article footer {
 }
 
 #top img {
-    max-width: 40%;
+    float: left;
+    max-width: 45%;
     height: auto;
     margin-top: 150px; /* Add margin to move the image down */
 }
@@ -159,7 +210,7 @@ article footer {
 #contact h2 {
     text-align: center; /* Center-align the header */
     margin-bottom: 20px; /* Add margin below the header */
-    color: #000; /* Set the text color */
+    color: #6B6E70; /* Set the text color */
 }
 
 /* Style the social links */
@@ -176,6 +227,11 @@ article footer {
 
 #contact .social a {
     text-decoration: none; /* Remove underline from links */
-    color: #000; /* Set the link color */
+    color: #6B6E70; /* Set the link color */
     font-size: 18px; /* Set the icon size */
     transition: color 0.3s; /* Add a smooth color transition effect */
+
+#top .text-container {
+    text-align: justify; /* Justify the text (align to both left and right margins) */
+    text-align-last: right; /* Align the last line to the right (for browsers that support it) */
+}
