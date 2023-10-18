@@ -243,3 +243,13 @@ article footer {
     text-align: justify; /* Justify the text (align to both left and right margins) */
     text-align-last: right; /* Align the last line to the right (for browsers that support it) */
 }
+
+#nav {
+    display: none;
+}
+
+/* Style for mobile menu icon */
+.mobile-menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}

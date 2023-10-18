@@ -15,6 +15,9 @@
 	</head>
 	<body class="is-preload">
 
+			<div class="mobile-menu-icon" onclick="toggleMobileMenu()">
+    			&#9776;
+			</div>
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container-nav">
@@ -171,6 +174,16 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function toggleMobileMenu() {
+					var nav = document.getElementById("nav");
+					if (nav.style.display === "block") {
+						nav.style.display = "none";
+					} else {
+						nav.style.display = "block";
+					}
+				}
+			</script>
 
 	</body>
 </html>
