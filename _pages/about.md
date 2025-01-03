@@ -9,8 +9,9 @@ redirect_from:
 
 I'm a Computer science Graduate student at UC San Diego set to gaduate in 2026 (expected). I obtained my undergraduate degree in Computer Science and Engineering from PES University, Bangalore, India in 2024. 
 
-Research Interests
+## Research Interests
 ======
+---
 My current research interests lie at the intersection of Natural Language Processing, AI Agents and Graph Theory, with a particular focus on the evaluation and application of Large Language Models (LLMs). I am working in Prof. Jingbo Shang's Lab on LLM memory in question-answering tasks, comparing their performance across languages using diverse evaluation metrics. 
 
 I am also exploring the use of models like transformers, LSTMs, and LLMs in medical diagnosis, specifically focusing on opioid detection through innovative computational methods. 
@@ -19,8 +20,9 @@ Additionally, my work draws from my experience at LG, where I optimized and fine
 
 My broader research objective is to leverage data-driven insights using graph theory and large language models to develop intelligent systems for a greater impact.
 
-About Me
+## About Me
 ======
+---
 In the past I have interned at LG Soft India, IBAB, IIIT-Hyderabad, IIT Mandi and IEEE CS Chapter. You can find my [Resume](https://drive.google.com/file/d/1XvXCohuzZBgodm6sg5LvDu6hOdwMYadb/view?usp=sharing) here. 
 My senior year undergraduate thesis is based on detecting Autism Spectrum Disorder using a novel VQA Algorithm in collaboration with BMCRI x ASHA foundation. The very hands-on nature of this project cemented my interest in research. It has been an impactful experience, from interacting with psychiatrists to autistic children and parents, attending conferences to understand the importance of inclusion and networking with the community and working on the project itself.
 
