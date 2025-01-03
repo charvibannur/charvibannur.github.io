@@ -21,7 +21,7 @@ repository               : "charvibannur/charvibannur.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Charvi.JPEG"
+  avatar           : "profile.jpeg"
   name             : "Charvi Bannur"
   pronouns         : # example: "she/her"  
   bio              : "I'm a Computer science Graduate student at UC San Diego. My current interests lie in the field of AI Agents, Large Language Models, and Graph Theory and I would be thrilled to be a part of some amazing projects regarding the same."
