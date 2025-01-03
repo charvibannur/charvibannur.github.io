@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer science Graduate student at UC San Diego set to gaduate in 2026 (expected). I obtained my undergraduate degree in Computer Science and Engineering from PES University, Bangalore, India in 2024. 
+I'm a **Computer science Graduate student at UC San Diego** set to gaduate in 2026 (expected). I obtained my undergraduate degree in **Computer Science and Engineering from PES University**, Bangalore, India in 2024. 
 
 ## Research Interests
 
-My current research interests lie at the intersection of Natural Language Processing, AI Agents and Graph Theory, with a particular focus on the evaluation and application of Large Language Models (LLMs). I am working in Prof. Jingbo Shang's Lab on LLM memory in question-answering tasks, comparing their performance across languages using diverse evaluation metrics. 
+My current research interests lie at the intersection of **Natural Language Processing, AI Agents and Graph Theory**, with a particular focus on the evaluation and application of Large Language Models (LLMs). I am working in Prof. Jingbo Shang's Lab on LLM memory in question-answering tasks, comparing their performance across languages using diverse evaluation metrics. 
 
 I am also exploring the use of models like transformers, LSTMs, and LLMs in medical diagnosis, specifically focusing on opioid detection through innovative computational methods. 
 
