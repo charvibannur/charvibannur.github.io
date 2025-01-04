@@ -16,7 +16,7 @@ Education
 
 Work experience
 ======
-* October 2024: Research Assistant, Shang Lab
+* October 2024:  ** Research Assistant, Shang Lab **
   * Analyzing long-context reasoning in large language models by utilizing attention values to filter and reorder the context
   * Conducting experiments on knowledge extraction in GPT-4o-mini and Llama-3.1-70B by leveraging B-plus trees.
 
