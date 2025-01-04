@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
 * M.S. in Computer Science, University of California San Diego, 2026 (Expected)
