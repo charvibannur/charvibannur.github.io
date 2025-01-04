@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
+hiii
 Education
 ======
 * M.S. in Computer Science, University of California San Diego, 2026 (Expected)
