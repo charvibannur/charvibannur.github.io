@@ -62,21 +62,6 @@ body {
     font-weight: 500;
 }
 
-.theme-toggle {
-    background: none;
-    border: none;
-    color: #e5e5e5;
-    font-size: 1.2rem;
-    cursor: pointer;
-    padding: 0.5rem;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
-
-.theme-toggle:hover {
-    background: #333;
-    color: #20c997;
-}
 
 /* Main Content */
 .main-content {
@@ -554,70 +539,4 @@ section {
     .nav-link {
         font-size: 0.9rem;
     }
-}
-
-/* Light theme (optional) */
-body.light-theme {
-    background-color: #ffffff;
-    color: #333;
-}
-
-body.light-theme .navbar {
-    background: rgba(255, 255, 255, 0.95);
-    border-bottom: 1px solid #e5e5e5;
-}
-
-body.light-theme .nav-link {
-    color: #333;
-}
-
-body.light-theme .nav-link:hover {
-    color: #20c997;
-}
-
-body.light-theme .name {
-    color: #333;
-}
-
-body.light-theme .section-title {
-    color: #333;
-}
-
-body.light-theme .motto {
-    color: #666;
-}
-
-body.light-theme .about-text p {
-    color: #666;
-}
-
-body.light-theme .news-content {
-    color: #666;
-}
-
-body.light-theme .research-content p {
-    color: #666;
-}
-
-body.light-theme .misc-content p {
-    color: #666;
-}
-
-body.light-theme .collaborate {
-    background: #f8f9fa;
-    border-left-color: #20c997;
-}
-
-body.light-theme .profile-image {
-    background: #f8f9fa;
-    border-color: #e5e5e5;
-}
-
-body.light-theme .social-link {
-    background: #f8f9fa;
-    border-color: #e5e5e5;
-}
-
-body.light-theme .news-item {
-    border-bottom-color: #e5e5e5;
 }

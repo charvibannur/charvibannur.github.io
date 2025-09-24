@@ -1,26 +1,3 @@
-// Theme Toggle Functionality
-const themeToggle = document.getElementById('theme-toggle');
-const body = document.body;
-
-// Check for saved theme preference or default to dark
-const currentTheme = localStorage.getItem('theme') || 'dark';
-body.classList.toggle('light-theme', currentTheme === 'light');
-
-// Update theme toggle icon
-function updateThemeIcon(theme) {
-    const icon = themeToggle.querySelector('i');
-    icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
-}
-
-updateThemeIcon(currentTheme);
-
-// Theme toggle event listener
-themeToggle.addEventListener('click', () => {
-    body.classList.toggle('light-theme');
-    const isLight = body.classList.contains('light-theme');
-    localStorage.setItem('theme', isLight ? 'light' : 'dark');
-    updateThemeIcon(isLight ? 'light' : 'dark');
-});
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -41,13 +18,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 100) {
-        navbar.style.background = body.classList.contains('light-theme') 
-            ? 'rgba(255, 255, 255, 0.98)' 
-            : 'rgba(26, 26, 26, 0.98)';
+        navbar.style.background = 'rgba(26, 26, 26, 0.98)';
     } else {
-        navbar.style.background = body.classList.contains('light-theme')
-            ? 'rgba(255, 255, 255, 0.95)'
-            : 'rgba(26, 26, 26, 0.95)';
+        navbar.style.background = 'rgba(26, 26, 26, 0.95)';
     }
 });
 
