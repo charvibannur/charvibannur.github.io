@@ -159,8 +159,8 @@ body {
 }
 
 .profile-image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 12px;
     margin: 0 auto 1.5rem;
     overflow: hidden;
@@ -517,8 +517,8 @@ section {
     }
     
     .profile-image {
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
         font-size: 3rem;
     }
 }
