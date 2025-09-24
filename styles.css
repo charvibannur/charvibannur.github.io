@@ -388,6 +388,75 @@ section {
     color: #20c997;
 }
 
+/* Doodles Gallery */
+.doodles-section {
+    margin-top: 3rem;
+}
+
+.doodles-section h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.doodles-section p {
+    color: #b0b0b0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.doodles-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.doodle-item {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #2a2a2a;
+    border: 2px solid #444;
+}
+
+.doodle-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(32, 201, 151, 0.2);
+}
+
+.doodle-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease;
+}
+
+.doodle-item:hover img {
+    transform: scale(1.05);
+}
+
+.doodle-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(32, 201, 151, 0.1), rgba(32, 201, 151, 0.05));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.doodle-item:hover::before {
+    opacity: 1;
+}
+
 /* Scholar Stats */
 .scholar-stats {
     display: grid;
@@ -520,6 +589,15 @@ section {
         width: 180px;
         height: 180px;
         font-size: 3rem;
+    }
+    
+    .doodles-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+    
+    .doodle-item img {
+        height: 200px;
     }
 }
 
